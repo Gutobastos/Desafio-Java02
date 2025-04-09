@@ -8,7 +8,7 @@ public class Calculadora {
     }
     void fazerCalculo (int numero) {
         calcular += numero;
-        total = numero * numero;
+        total = numero * 2;
     }
     int exibirResultado() {
         return total;
